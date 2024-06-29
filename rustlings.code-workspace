@@ -1,8 +1,19 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
+  "folders": [
+    {
+      "path": "."
+    }
   ],
-  "settings": {}
+  "settings": {},
+  "extensions": {
+    "recommendations": [
+      "streetsidesoftware.code-spell-checker",
+      "donjayamanne.git-extension-pack",
+      "seatonjiang.gitmoji-vscode",
+      "visualstudioexptteam.vscodeintellicode",
+      "visualstudioexptteam.vscodeintellicode-completions",
+      "oderwat.indent-rainbow",
+      "esbenp.prettier-vscode"
+    ]
+  }
 }
