@@ -13,10 +13,23 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
+// I AM DONE
 
 // Put your function here!
-// fn calculate_price_of_apples {
+
+const DISCOUNT_THRESHOLD: u32 = 40;
+
+fn calculate_price_of_apples(quantity: u32) -> u32 {
+    let mut price = 0;
+
+    if quantity > DISCOUNT_THRESHOLD {
+        price = quantity;
+    } else {
+        price = quantity * 2;
+    }
+
+    price
+}
 
 // Don't modify this function!
 #[test]
